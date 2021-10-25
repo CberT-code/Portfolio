@@ -1,0 +1,25 @@
+.navBar {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
+	
+}
+.navBar li{
+	list-style-type: none;
+	padding: 1rem 2rem;
+}
+.navBar a{
+	color: #b4b4b4;
+	line-height: 3.3em;
+	transition-property: color;
+ 	transition-duration: 0.5s;
+ 	transition-delay: 0.1s;
+	text-decoration: none;
+}
+.navBar a:hover{
+	color: #ffffff;
+	
+}
+.navBar .active{
+	color: #F5F5F2;
+}

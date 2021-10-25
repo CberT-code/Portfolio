@@ -1,0 +1,154 @@
+{
+	"name": "Bertola",
+	"surname": "Cyrille",
+	"birth": "26-07-1992",
+	"work": "Developpeur",
+	"presentation": "J'ai travaillé 4 années en tant que technicien informatique au seins de grande companies, durant ce temps, j'ai eu la chance de pouvoir developper de nombreux scripts et intranet dans le cadre de mon travail. Pris de passion par le code, j'ai décidé de me réorienter dans le developpement en entrant à l'école 42-Paris. Je suis maintenant à la recherche d'une entreprise dans laquelle je pourrais continuer apprendre et mettre en pratique mes connaissances.",
+	"what": [
+		{
+			"title": "Technologie",
+			"content": "Developpeur passionné,je n'ai pas peur des nouveaux défis et prends plaisir à decortiquer les nouvelles technologies. Après tout, il suffit de lire le manuel..."
+		},
+		{
+			"title": "Developpement",
+			"content": "Je suis constamment à la recherche d'amélioration dans mon code autant pour les performances que pour la lisibilité de ce dernier. Pour moi un bon code est un code facile a lire et reutilisable."
+		},
+		{
+			"title": "Collègue",
+			"content": "Pour moi, travailler avec une équipe soudée est primordiale. Cela permet d'avancer, progresser et franchir les obstacles plus facilement. Qui plus est, nous passons beaucoup de temps au travail, autant le passer avec des personnes que l'on apprécie."
+		},
+		{
+			"title": "Avenir",
+			"content": "Je souhaiterai intégrer une équipe de dev afin de monter en compétences sur différentes technologies et languages."
+		}
+	],
+	"reviews": [
+		{
+			"name": "Leopold Lepage",
+			"content": "Cyrille est très flexible et n'a pas peur d'apprendre malgré les difficultés rencontrées. Il comprend les enjeux des sujets abordés et est entreprenant sur la manière de résoudre les problèmes auxquels il doit répondre. Je recommande fortement ce profil !",
+			"where": "42-Paris"
+		},
+		{
+			"name": "Zack Boudi",
+			"content": "Cyrille est très flexible et n'a pas peur d'apprendre malgré les difficultés rencontrées. Il comprend les enjeux des sujets abordés et est entreprenant sur la manière de résoudre les problèmes auxquels il doit répondre. Je recommande fortement ce profil !",
+			"where": "42-Paris"
+		}
+	],
+	"fun": [
+		{
+			"title": "4273",
+			"content": "heures de developpement"
+		},
+		{
+			"title": "16",
+			"content": "projets réalisés"
+		},
+		{
+			"title": "1452",
+			"content": "cafés"
+		},
+		{
+			"title": "4",
+			"content": "playlists en boucle"
+		}
+	],
+	"education": [
+		{
+			"year": "2019",
+			"location": "42-Paris",
+			"title": "Developpeur",
+			"details": "Les écoles 42 sont des établissements supérieurs d'autoformation non reconnus par l'État, dont l'objectif est de former des développeurs et préparer leurs étudiants au diplôme d'architecte du numérique"
+		},
+		{
+			"year": "2012",
+			"location": "CESI - Blanquefort",
+			"title": "Technicien informatique",
+			"details": "Gestionnaire et maintenance de systeme informatique a blanquefort em alternance"
+		},
+		{
+			"year": "2010",
+			"location": "Lycée - Sarlat",
+			"title": "Telecommunication et réseau",
+			"details": "Bac professionnel Systeme electromique numerique option telecommunication et reseau"
+		}
+	],
+	"experience": [
+		{
+			"year": "2015 - 2017",
+			"location": "Vinci Energies - Sud Ouest",
+			"title": "Technicien informatique",
+			"details": "Gestion du parc informatique, developpement de scripts, création de plusieurs intranets, gestion des serveurs"
+		},
+		{
+			"year": "2012 - 2014",
+			"location": "Colas Sud-Ouest",
+			"title": "Technicien informatique",
+			"details": "Gestion du parc informatique, developpement de scripts, création de plusieurs intranets"
+		}
+	],
+	"diploma": [
+		{
+			"year": "En cours",
+			"title": "Architect du numerique",
+			"school": "42 - Paris"
+		},
+		{
+			"year": "2014",
+			"title": "Gestionnaire Maintenance Support Informatique",
+			"school": "CESI Blanquefort"
+		}
+	],
+	"projects": [
+		{
+			"title": "Transcendance",
+			"date": "10-05-2021",
+			"team": [
+				{
+					"name": "Leopold Lepage"
+				},
+				{
+					"name": "Hanibal Baudet"
+				}
+			],
+			"description": "Reproduire le grand jeux Pong jouable sur un site en Ruby on Rail et backbone pour le single page",
+			"tech": ["Ruby On Rails", "BackBone", "JavaScript", "Ruby", "PostgreSQL", "Docker", "HTML", "CSS"],
+			"github": "https://github.com/CberT-code/Transcendence"
+		},
+		{
+			"title": "WebServ",
+			"date": "23-01-2021",
+			"team": [
+				{
+					"name": "Leopold Lepage"
+				},
+				{
+					"name": "Mike Fernandez"
+				}
+			],
+			"description": "Ecrire son propre serveur HTTP en suivant la RFC d'HTTP en C++98  ",
+			"tech": ["C++", "C"],
+			"github": "https://github.com/CberT-code/WebServ"
+		},
+		{
+			"title": "Minishell",
+			"date": "14-09-2020",
+			"team": [
+				{
+					"name": "Mike Fernandez"
+				}
+			],
+			"description": "Créer un simple shell en C",
+			"tech": ["C"],
+			"github": "https://github.com/CberT-code/Minishell"
+		},
+		{
+			"title": "Cub3D",
+			"date": "25-05-2020",
+			"description": "Reproduire une vue dynamique au sein d'un labyrinthe, dans lequel vous devrez trouver votre chemin comme dans le celebre jeu Wolfenstein 3D",
+			"team": [],
+			"tech": ["C"],
+			"github": "https://github.com/CberT-code/Minishell"
+		}
+	]
+
+}
