@@ -124,6 +124,7 @@ main {
 	box-shadow: 0 0 0 15px #5a5a5a;
 }
 .presentation .profilPicture img {
+	object-fit: cover;
 	border-radius: 400px;
 }
 
@@ -216,6 +217,7 @@ main {
 	height: 100px;
 }
 .reviews .review .image img{
+	object-fit: cover;
 	border-radius: 100px;
 }
 .reviews .review .text{
