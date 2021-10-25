@@ -1,20 +1,19 @@
-## Getting Started
+# Portfolio
+ Here is my portfolio. I used NextJS for the first time.
 
-First, run the development server:
+ In this portfolio, i try a lot of things so my code isn't really clear right now.
+ Sometimes i tried using module.css, sometimes JSX css in javascript or just a global css.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+ I created a Json data file to pretend reading a database in my getStaticProps.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ I'm currently working on the V1, so the actual project is not responsive, the datas are not the final datas and some buttons dont work yet.
 
+ The V1 will be full SSG(static site generation).
 
-## Learn More
+ I'm working on : 
+   - Insert the good datas
+   - Finish the website
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
+ And next?
+   - CLEAN MY CODE and work on tailwindcss
+   - Create a DB and render SSG and SSR pages
