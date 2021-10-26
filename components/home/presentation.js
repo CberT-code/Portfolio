@@ -19,7 +19,7 @@ export default function Presentation({ datas }) {
 				<h1>{datas.surname} {datas.name}</h1>
 				<p>{datas.presentation}</p>
 				<div className='buttons'>
-					<Link href='/' ><a className='borderBlue'>Download CV</a></Link>
+					<Link href='/files/cv.pdf' ><a className='borderBlue'>Download CV</a></Link>
 					<Link href='/' ><a className='borderWhite'>Contact</a></Link>
 				</div>
 			</div>
