@@ -5,8 +5,9 @@ import Image from 'next/image'
 export default function GalerieVertical({ path, arrayImages }) {
 	return (
 		<div className="galerieVertical">
+			{console.log(arrayImages)}
 			{arrayImages.map((image, key) => {
-				return <ViewPicture key={key} src={`${path}${image}`} height="600px" width="600px" />
+				return <ViewPicture key={key} src={`${path}${image}`} height="600px" width="800px" />
 
 			})}
 		</div>

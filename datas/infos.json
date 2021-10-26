@@ -130,6 +130,14 @@
 			"github": "https://github.com/CberT-code/WebServ"
 		},
 		{
+			"title": "FtService",
+			"date": "04-06-2020",
+			"team": [],
+			"description": "Mise en place une infrastructure de différents services a l'aide de Kubernetes.",
+			"tech": ["kubernetes", "docker", "reseau", "Nginx", "Graphana", "linux"],
+			"github": "https://github.com/CberT-code/ft_services"
+		},
+		{
 			"title": "Minishell",
 			"date": "14-09-2020",
 			"team": [

@@ -23,10 +23,6 @@ export default function ViewPicture({ src, title = null, height = "300px", width
 				border-color: #3B3B3C;
 				border-width: 1px;
 				overflow: hidden;
-				transition: transform .2s;
-			}
-			.viewPicture:hover{
-				transform: scale(1.1);
 			}
 			.viewPicture h1{
 				background-color: rgba(20,20,20,0.5);
