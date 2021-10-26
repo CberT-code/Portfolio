@@ -43,7 +43,7 @@ export default function Layout({ children }) {
 				<div className='social'>
 					<a href="https://www.linkedin.com/in/cyrille-bertola" target="blank">Linkedin</a>
 					<a href="https://github.com/CberT-code/CberT-code" target="blank">Github</a>
-					<Link href="/"><a>CV</a></Link>
+					<Link href="/files/cv.pdf"><a>CV</a></Link>
 				</div>
 				<div className='infos'>
 					<span>Développé sous NextJS</span>

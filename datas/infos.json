@@ -3,7 +3,7 @@
 	"surname": "Cyrille",
 	"birth": "26-07-1992",
 	"work": "Developpeur",
-	"presentation": "J'ai travaillé 4 années en tant que technicien informatique au seins de grande companies, durant ce temps, j'ai eu la chance de pouvoir developper de nombreux scripts et intranet dans le cadre de mon travail. Pris de passion par le code, j'ai décidé de me réorienter dans le developpement en entrant à l'école 42-Paris. Je suis maintenant à la recherche d'une entreprise dans laquelle je pourrais continuer apprendre et mettre en pratique mes connaissances.",
+	"presentation": "J'ai travaillé quatre années en tant que technicien informatique au sein de grandes compagnies, durant ce temps, j'ai eu la chance de pouvoir développer de nombreux scripts et intranet dans le cadre de mon travail. Pris de passion par le code, j'ai décidé de me réorienter dans le developpement en entrant à l'école 42-Paris. Je suis maintenant à la recherche d'une entreprise dans laquelle je pourrais continuer à apprendre et mettre en pratique mes connaissances.",
 	"what": [
 		{
 			"title": "Technologie",
@@ -37,7 +37,7 @@
 	"fun": [
 		{
 			"title": "4273",
-			"content": "heures de developpement"
+			"content": "heures de développement"
 		},
 		{
 			"title": "16",
@@ -48,8 +48,8 @@
 			"content": "cafés"
 		},
 		{
-			"title": "4",
-			"content": "playlists en boucle"
+			"title": "10",
+			"content": "musiques en boucle"
 		}
 	],
 	"education": [
@@ -110,7 +110,7 @@
 					"name": "Hanibal Baudet"
 				}
 			],
-			"description": "Reproduire le grand jeux Pong jouable sur un site en Ruby on Rail et backbone pour le single page",
+			"description": "Reproduire le grand jeu Pong jouable sur un site en Ruby on Rail et backbone pour le single page",
 			"tech": ["Ruby On Rails", "BackBone", "JavaScript", "Ruby", "PostgreSQL", "Docker", "HTML", "CSS"],
 			"github": "https://github.com/CberT-code/Transcendence"
 		},
