@@ -6,14 +6,11 @@
 
  I created a Json data file to pretend reading a database in my getStaticProps.
 
- I'm currently working on the V1, so the actual project is not responsive, the datas are not the final datas and some buttons dont work yet.
+ I'm currently working on the V1, my goal, some pages using SSR and other paging using SSG not form performance, only to try everything i can.
 
- The V1 will be full SSG(static site generation).
-
- I'm working on : 
-   - Insert the good datas
-   - Finish the website
+ Now? 
+	- My app is using my mongodb database (The code is in comment in my repo for now)
+	- Working on a deploying my app 
 
  And next?
-   - CLEAN MY CODE and work on tailwindcss
-   - Create a DB and render SSG and SSR pages
+   - CLEAN MY CSS CODE !!!!

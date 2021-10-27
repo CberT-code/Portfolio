@@ -15,7 +15,7 @@ export async function getStaticProps() {
 
 export default function Experiences({datas}) {
 	return (
-		<Layout>
+		<>
 			<Head>
 				<title>Cyrille BERTOLA - Experience</title>
 			</Head>
@@ -28,6 +28,6 @@ export default function Experiences({datas}) {
 			</div>
 			<h3>Diplomes</h3>
 			<Certificats datas={datas.diploma} />
-		</Layout>
+		</>
 	)
 }

@@ -5,7 +5,7 @@ import Galerie from '../components/project/galerie';
 
 export default function Experiences({datas}) {
 	return (
-		<Layout>
+		<>
 			<Head>
 				<title>Cyrille BERTOLA - Projects</title>
 			</Head>
@@ -13,7 +13,7 @@ export default function Experiences({datas}) {
 				<h1>Projects</h1>
 			</div>
 			<Galerie datas={datas} />
-		</Layout>
+		</>
 	)
 }
 
