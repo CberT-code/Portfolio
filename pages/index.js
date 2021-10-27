@@ -41,7 +41,6 @@ export async function getStaticProps() {
 // 	// db.find({}) or any of the MongoDB Node Driver commands
 // 	const data = await db.collection("user").findOne({name:'Bertola'})
 
-// 	// console.log(datas)
 // 	const datas = JSON.parse(JSON.stringify(data))
   
 // 	return {

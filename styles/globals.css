@@ -46,7 +46,7 @@ h3:after{
 
 header {
 	display: flex;
-	flex-flow: row nowrap;
+	flex-flow: row wrap;
 	justify-content: space-between;
 }
 
@@ -132,7 +132,6 @@ main {
 	display: flex;
 	flex-flow: column nowrap;
 	padding-left: 4rem;
-	width: 60%;
 	max-width: 700px;
 }
 .presentation .description h1{
@@ -182,7 +181,6 @@ main {
 .whatAbout .article {
 	display: flex;
 	flex-flow: row nowrap;
-	width: 50%;
 	max-width: 500px;
 	align-items: center;
 }
@@ -195,7 +193,7 @@ main {
 }
 .whatAbout .article .text h2{
 	font-size: 0.8rem;
-	padding: 0 4rem 0 2rem;
+	padding: 0 0 0 2rem;
 	color: #d5d5d5;
 }
 

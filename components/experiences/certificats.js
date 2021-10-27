@@ -13,7 +13,6 @@ const Certificat = ({data}) => {
 export default function Certificats ({datas}){
 	return (
 		<div className={style.certificats}>
-			{console.log(datas)}
 			{datas.map((data, key) => {
 				return <Certificat key={key} data={data} />
 			})}

@@ -1,12 +1,12 @@
 .navBar {
 	display: flex;
-	flex-flow: row nowrap;
+	flex-flow: row wrap;
 	justify-content: flex-end;
 	
 }
 .navBar li{
 	list-style-type: none;
-	padding: 1rem 2rem;
+	padding: 1rem 1rem;
 }
 .navBar a{
 	color: #b4b4b4;

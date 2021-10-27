@@ -23,7 +23,7 @@ const NavButton = ({ name, link, routerPath }) => {
 
 const Nav = (props) => {
 	return (
-		<nav>
+
 			<ul className={style.navBar}>
 				{props.items.map((item, key) => {
 					return <li key={key}>
@@ -35,7 +35,7 @@ const Nav = (props) => {
 					</li>
 				})}
 			</ul>
-		</nav>
+
 	)
 }
 

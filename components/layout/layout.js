@@ -19,7 +19,7 @@ export default function Layout({ children }) {
 
 	return (
 		<>
-			<Head>
+			{/* <Head>
 				<link rel="icon" href="/favicon.ico" />
 				<title>Cyrille BERTOLA - Portfolio</title>
 				<meta
@@ -27,13 +27,12 @@ export default function Layout({ children }) {
 					content="Learn more about me - Cyrille BERTOLA - Dev"
 				/>
 				<meta name="og:title" content={siteTitle} />
-			</Head>
+			</Head> */}
 			<header>
 				<div className='logo'>
 					<div className='FirstLetter'>C</div>
 					<div className='FullName'>
-						Cyrille
-						<span> BERTOLA </span>
+						<span>Cyrille BERTOLA </span>
 					</div>
 				</div>
 				<Nav items={nav}/>
