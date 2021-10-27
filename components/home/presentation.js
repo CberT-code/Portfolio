@@ -20,7 +20,7 @@ export default function Presentation({ datas }) {
 				<p>{datas.presentation}</p>
 				<div className='buttons'>
 					<Link href='/files/cv.pdf' ><a className='borderBlue'>Download CV</a></Link>
-					<Link href='/' ><a className='borderWhite'>Contact</a></Link>
+					{/* <Link href='/' ><a className='borderWhite'>Contact</a></Link> */}
 				</div>
 			</div>
 		</div>
