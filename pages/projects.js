@@ -18,11 +18,12 @@ export default function Experiences({datas}) {
 }
 
 export async function getStaticProps() {
-	const datas = content
+	let datas = content
 	await addImgsProjects(datas.projects, `/public/images/projects/`)
+	console.log(datas.projects)
 	return {
 		props: {
-			datas
+			datas: datas
 		}
 	}
 } 
