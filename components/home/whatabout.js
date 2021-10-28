@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowCircleRight, faUsers, faCode, faCogs} from '@fortawesome/free-solid-svg-icons'
 import { Article } from '../article'
 

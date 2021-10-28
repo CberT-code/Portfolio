@@ -1,6 +1,5 @@
 
 import content from '../datas/infos.json';
-import Layout from '../components/layout/layout'
 import Presentation from '../components/home/presentation';
 import WhatAbout from '../components/home/whatabout';
 import Recommandations from '../components/home/recommandations';

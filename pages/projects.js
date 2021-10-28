@@ -1,7 +1,7 @@
 import content from '../datas/infos.json';
 import Head from 'next/head'
-import Layout from '../components/layout/layout'
 import Galerie from '../components/project/galerie';
+import { addImgsProjects } from '../lib/projects';
 
 export default function Experiences({datas}) {
 	return (
@@ -19,6 +19,7 @@ export default function Experiences({datas}) {
 
 export async function getStaticProps() {
 	const datas = content
+	await addImgsProjects(datas.projects, `/public/images/projects/`)
 	return {
 		props: {
 			datas
