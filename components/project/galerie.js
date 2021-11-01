@@ -6,6 +6,7 @@ export default function Galerie({datas}) {
 	return (
 			<div className="galerie">
 			 	{datas.projects.map(project => {
+					 console.log(project.imgPath.cover)
 					return (
 						<LinkPicture title={project.title} src={project.imgPath.cover} link={`${projectPath}${project.title.toLowerCase()}`}/>
 					)
