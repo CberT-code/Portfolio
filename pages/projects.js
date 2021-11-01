@@ -20,7 +20,6 @@ export default function Experiences({datas}) {
 export async function getStaticProps() {
 	let datas = content
 	await addImgsProjects(datas.projects, `/public/images/projects/`)
-	console.log(datas.projects)
 	return {
 		props: {
 			datas: datas

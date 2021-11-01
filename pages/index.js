@@ -21,18 +21,8 @@ export default function Home({ datas }) {
 	)
 }
 
-// export async function getStaticProps() {
-// 	const datas = content
-// 	return {
-// 		props: {
-// 			datas
-// 		}
-// 	}
-// }
-
 export async function getServerSideProps(context) {
 	const datas = await axios.get(`${process.env.HOST}/api/user`)
-	console.log(datas)
 	return {
 	  props: { 
 		  datas: datas.data
