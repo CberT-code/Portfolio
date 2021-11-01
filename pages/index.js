@@ -5,7 +5,6 @@ import WhatAbout from '../components/home/whatabout';
 import Recommandations from '../components/home/recommandations';
 import Fun from '../components/home/fun';
 import axios from 'axios';
-// import clientPromise from '../lib/mongodb'
 
 export default function Home({ datas }) {
 	return (
