@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Nav from './nav'
 
-const name = 'Cyrille'
 export const siteTitle = 'Portfolio - Cyrille BERTOLA'
 
 export default function Layout({ children }) {

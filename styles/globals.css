@@ -15,33 +15,35 @@ html, body {
 .borderBlue {
 	border: 2px solid #007ced;
 }
+
 .borderWhite {
 	border: 2px solid #FFFFFF;
 }
+
 h1 {
 	font-size: 3em;
 	margin: 0.5rem;
 }
 
-h2{
+h2 {
 	color: #b4b4b4;
 	margin: 0;
 	font-size: 1em;
 }
 
-h3{
+h3 {
 	padding-top: 4rem;
 	padding-bottom: 2rem;
 	padding-left: 2rem;
 }
 
-h3:after{
+h3:after {
 	display: block;
-    position: absolute;
-    content: '';
-    width: 30px;
-    background-color: #007ced;
-    height: 2px;
+	position: absolute;
+	content: '';
+	width: 30px;
+	background-color: #007ced;
+	height: 2px;
 }
 
 header {
@@ -73,7 +75,7 @@ header .logo .FirstLetter {
 	margin-top: 4px;
 }
 
-footer{
+footer {
 	display: flex;
 	position: relative;
 	bottom: 0;
@@ -87,12 +89,13 @@ footer{
 	margin-top: 8vh;
 }
 
-footer .social a{
+footer .social a {
 	padding: 0.5rem 2rem;
 	text-decoration: none;
 	font-size: 0.8rem;
 }
-footer .infos span{
+
+footer .infos span {
 	font-size: 0.8rem;
 }
 
@@ -108,7 +111,7 @@ main {
 	justify-content: center;
 }
 
-.presentation .profilPicture{
+.presentation .profilPicture {
 	position: relative;
 	display: block;
 	width: 300px;
@@ -117,12 +120,14 @@ main {
 	text-align: center;
 	box-shadow: 0 0 0 10px #3b3b3b;
 	transition-property: box-shadow;
- 	transition-duration: 0.5s;
- 	transition-delay: 0.1s;
+	transition-duration: 0.5s;
+	transition-delay: 0.1s;
 }
-.presentation .profilPicture:hover{
+
+.presentation .profilPicture:hover {
 	box-shadow: 0 0 0 15px #5a5a5a;
 }
+
 .presentation .profilPicture img {
 	object-fit: cover;
 	border-radius: 400px;
@@ -134,29 +139,29 @@ main {
 	padding-left: 4rem;
 	max-width: 700px;
 }
-.presentation .description h1{
+
+.presentation .description h1 {
 	font-size: 3rem;
 }
 
-.presentation .description p{
+.presentation .description p {
 	font-size: 14px;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 1.75em;
-    color: #d5d5d5;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1.75em;
+	color: #d5d5d5;
 }
 
 .presentation .description .buttons {
 	padding-top: 2rem;
 }
 
-.presentation .description .buttons a{
+.presentation .description .buttons a {
 	padding: .8em 2.1em;
-    margin-bottom: .75em;
-    margin-right: .25em;
-    font-size: 1em;
-    line-height: 1.2;
-
+	margin-bottom: .75em;
+	margin-right: .25em;
+	font-size: 1em;
+	line-height: 1.2;
 	transition-property: color, background-color;
 	transition-duration: 0.5s;
 	transition-delay: 0.1s;
@@ -164,34 +169,39 @@ main {
 	text-decoration: none;
 }
 
-.presentation .description .buttons .borderBlue:hover{
+.presentation .description .buttons .borderBlue:hover {
 	background-color: #007ced;
 }
-.presentation .description .buttons .borderWhite:hover{
+
+.presentation .description .buttons .borderWhite:hover {
 	background-color: #FFFFFF;
 	color: #3b3b3b;
 }
 
-.whatAbout .col2{
+.whatAbout .col2 {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
 	padding: 0 2rem;
 }
+
 .whatAbout .article {
 	display: flex;
 	flex-flow: row nowrap;
 	max-width: 500px;
 	align-items: center;
 }
-.whatAbout .article path{
+
+.whatAbout .article path {
 	color: #007ced;
 }
-.whatAbout .article .text h1{
+
+.whatAbout .article .text h1 {
 	font-size: 1.2rem;
 	padding-left: 1rem;
 }
-.whatAbout .article .text h2{
+
+.whatAbout .article .text h2 {
 	font-size: 0.8rem;
 	padding: 0 0 0 2rem;
 	color: #d5d5d5;
@@ -202,11 +212,14 @@ main {
 	flex-flow: row wrap;
 	justify-content: center;
 }
+
 .reviews .review {
 	padding: 0 2rem;
-	max-width: 400px;;
+	max-width: 400px;
+	;
 }
-.reviews .review .image{
+
+.reviews .review .image {
 	position: relative;
 	display: block;
 	top: 40px;
@@ -214,33 +227,36 @@ main {
 	width: 100px;
 	height: 100px;
 }
-.reviews .review .image img{
+
+.reviews .review .image img {
 	object-fit: cover;
 	border-radius: 100px;
 }
-.reviews .review .text{
+
+.reviews .review .text {
 	padding: 1rem 2rem;
 	border-style: solid;
 	border-color: #5a5a5a;
 	border-radius: 20px;
 }
-.reviews .review .text h1{
+
+.reviews .review .text h1 {
 	font-size: 1rem;
 	margin: 0;
 }
-.reviews .review .text h2{
+
+.reviews .review .text h2 {
 	font-size: 0.8rem;
 	padding-left: 0.5rem;
-
 }
 
-.fun{
+.fun {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
 }
 
-.fun .article{
+.fun .article {
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: center;
@@ -255,12 +271,13 @@ main {
 	border-color: #444;
 	border-radius: 40px;
 }
-.fun .article .text{
+
+.fun .article .text {
 	text-align: center;
 }
 
-.fun .article path{
-		color: #007ced;
+.fun .article path {
+	color: #007ced;
 }
 
 .banner {
@@ -272,6 +289,7 @@ main {
 	font-size: 1em;
 	margin: 0.5rem;
 }
+
 .experience {
 	display: flex;
 	flex-flow: row wrap;
@@ -288,4 +306,13 @@ main {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+	.project {
+		display: flex;
+		flex-flow: column-reverse nowrap;
+		justify-content: center;
+		align-items: center;
+	}
 }
