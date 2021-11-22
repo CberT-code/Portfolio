@@ -192,7 +192,10 @@ main {
 	display: flex;
 	flex-flow: row nowrap;
 	max-width: 500px;
-	align-items: center;
+	padding: 0.5rem;
+}
+.whatAbout .article :first-child(){
+	align-items: start;
 }
 
 .whatAbout .article path {
@@ -200,12 +203,13 @@ main {
 }
 
 .whatAbout .article .text h1 {
-	font-size: 1.2rem;
+	font-size: 1rem;
 	padding-left: 1rem;
 }
 
 .whatAbout .article .text h2 {
-	font-size: 0.8rem;
+	font-size: 0.7rem;
+	line-height: 2.2;
 	padding: 0 0 0 2rem;
 	color: #d5d5d5;
 }
